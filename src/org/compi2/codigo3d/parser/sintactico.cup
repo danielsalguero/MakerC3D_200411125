@@ -25,7 +25,8 @@ action code
 terminal String ID, ENTERO, DECIMAL;
 terminal TokenC3D MAS, MENOS, MULT, DIV, POT, PAR_IZQ, PAR_DER;
 terminal TokenC3D IGUAL, DIFERENTE, MAYORQUE;
-terminal TokenC3D MENORQUE, MAYORIGUAL, MENORIGUAL, OR, AND, NOT;
+terminal TokenC3D MENORQUE, MAYORIGUAL, MENORIGUAL;
+terminal TokenC3D OR, AND, NOT;
 nonterminal NodoC3D inicial, expresion;
 
 precedence left OR;
