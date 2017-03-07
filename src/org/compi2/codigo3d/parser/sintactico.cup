@@ -28,7 +28,6 @@ terminal TokenC3D IGUAL, DIFERENTE, MAYORQUE;
 terminal TokenC3D MENORQUE, MAYORIGUAL, MENORIGUAL;
 terminal TokenC3D OR, AND, NOT;
 nonterminal NodoC3D inicial, expresion;
-
 precedence left OR;
 precedence left AND;
 precedence left IGUAL, DIFERENTE, MAYORQUE, MENORQUE, MAYORIGUAL, MENORIGUAL;
